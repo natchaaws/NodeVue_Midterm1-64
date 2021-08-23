@@ -2,9 +2,9 @@
   <div>
     <h1>Show User</h1>
     <p>id: {{ userId }}</p>
-    <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <p>ยี่ห้อ :{{ user.name }} - {{ user.lastname }}</p>
+    <p>รุ่น: {{ user.email }}</p>
+    <p>ขนาด: {{ user.password }}</p>
   </div>
 </template>
 <script>
